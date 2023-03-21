@@ -8,14 +8,20 @@
   
 }
 
-@media screen and (max-width: 520px) {
 
+
+@media screen and (max-width: 1150px) {
   .footer {
-    flex-direction: column;
-    margin-left: 16px;
-  }
-  
+    max-width: 90.625%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    }
+}
+
 
 @media screen and (max-width: 670px) {
 
@@ -23,11 +29,11 @@
     flex-direction: column;
     margin-left: 16px;
   }
-  
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 320px) {
+
   .footer {
-    max-width: 90.625%;
-    }
+    padding-bottom: 64px;
+  }
 }
