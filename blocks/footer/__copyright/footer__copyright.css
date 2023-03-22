@@ -18,13 +18,3 @@ line-height: 16px;
     
   }
 
-  @media screen and (max-width: 320px) {
-
-    .footer__copyright {
-  
-      margin-top: 48px;
-  
-    } 
-    
-  }
-  

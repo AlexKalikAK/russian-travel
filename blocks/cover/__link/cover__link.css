@@ -1,10 +1,14 @@
 
 .cover__link {
-
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   z-index: 2;
   color: #FFF;
- 
+  min-height: inherit;
+  width: 100%;
+  justify-content: center;
+         
 }
 
 

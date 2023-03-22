@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  justify-content: center;
+    
 }
 
 .cover:before {
@@ -43,7 +44,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 680px) {
   .cover {
     min-height: 60vw;
     
